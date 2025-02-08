@@ -1,5 +1,5 @@
 // Your code here
-export function pointsPerWord(word) {
+export function pointsForWord(word) {
     let points = 0;
     for(const char of word) {
         if(["a", "e", "i", "o", "u"].includes(char)) {

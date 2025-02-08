@@ -2,9 +2,9 @@
 import {pointsForWord} from '../utils';
 
 describe('pointsForWord', () => {
-    it('calcultes the total points for a word(1 point per vowel, 2 points per consonant)', () => {
+    it('handles uppercase and lowercase input', () => {
         // Arrange
-        const word = "test";
+        const word = "tEsT";
         // Act
         const points = pointsForWord(word);
         //Assert
